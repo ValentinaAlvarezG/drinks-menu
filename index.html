@@ -18,7 +18,41 @@
 </head>
 
 <body class="d-flex flex-column h-100">
+  <!-- navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Drink Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="cocktails.html"> 
+                <i class="fas fa-cocktail"></i> Cocktails
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="classic.html">
+                <i class="fas fa-glass-whiskey"></i> Clásicos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beers.html">
+                <i class="fas fa-beer"></i> Cervezas
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+ <!-- main -->
   <main class="flex-shrink-0">
+    <!-- welcome -->
     <div class="bg-image p-5 text-center shadow-1-strong mb-5 text-white" 
       style="background-image: url(static/img/drinks.jpg);">
       <div class="background-black">
@@ -26,47 +60,19 @@
         <p class="p-3">¡Bienvenido a Guardia Vieja 330 depto 6!</p>  
       </div>
     </div>
-
-    <div class="container m-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <!-- <img src="static/img/terremoto.jpg" class="img-fluid rounded-start" alt="..."> -->
-          img
-        </div>
-        <div class="col-sm-8">
-          texto
+    
+    <!-- content -->
+    <div class="m-5">
+      <h1 class="mt-2 text-center">Especial del día</h1>
+      <hr>
+      <div class="card text-center mx-2" style="width: 18rem;">
+        <img src="static/img/terremoto.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Terremoto</h5>
+          <p class="card-text">Pipeño, granadina, helado de piña.</p>
         </div>
       </div>
     </div>
-      <!-- <div class="row">
-        <div class="col-md-4 mb-2">
-          <div class="card card-main">
-            <div class="card-body">
-              <h4 class="card-title">Sobre este blog</h4>
-              <p class="card-text text-justify">En este blog nos interesa hablar sobre dos temas: cómo manejar datos de forma eficiente y cómo analizar datos con técnicas de <em>Machine Learning</em>. Así, podrás dar tus primeros pasos como <em>Data Scientist</em> 💪🏻. Para ver nuestros <em>posts</em> puedes revisar el link más abajo.</p>
-              <a href="#" class="card-link no-under-link">¡Ver más!</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-2">
-          <div class="card card-main">
-            <div class="card-body">
-              <h4 class="card-title">¿Cómo seguir este blog?</h4>
-              <p class="card-text text-justify">Estamos convencido que para aprender necesitas poner las manos en el código 💻. Por lo mismo, muchas de las entradas de este blog tendrán asociados un <em>Jupyter Notebook</em> que puedes correr en linea para practicar los contenidos por tu cuenta. Para comprender cómo usar estos recursos puedes revisar el link más abajo.</p>
-              <a href="#" class="card-link no-under-link">¡Ver más!</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-2">
-          <div class="card card-main">
-            <div class="card-body">
-              <h4 class="card-title">¿Quiénes somos?</h4>
-              <p class="card-text text-justify">Somos dos investigadores que han estudiado temas relacionados al mundo de los datos 💾 por años, y además, también hemos dictado varios cursos relacionados a estos temas. Por lo mismo, queremos poner a disposición de todas las personas parte del material que hemos generado.</p>
-              <a href="#" class="card-link no-under-link">¡Ver más!</a>
-            </div>
-          </div>
-        </div>
-      </div> -->
   </main>
 
   <script src="static/jquery/jquery.min.js"></script>
