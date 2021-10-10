@@ -1,0 +1,33 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/* main>.container {
+    padding: 60px 15px 0;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+
+.background-black {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 10;
+}
+
+.no-under-link {
+    text-decoration: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.card-main {
+    min-height: 250px;
+}

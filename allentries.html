@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>DatablogCL</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome core CSS -->
+    <link href="static/fontawesome/css/all.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/custom/custom.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/katex/katex.css">
+    <script src="static/katex/katex.js"></script>
+    <script defer src="static/katex/contrib/auto-render.min.js"
+      onload="renderMathInElement(document.body);"></script>
+
+    <link href="static/prism/prism.css" rel="stylesheet"/>
+    
+
+
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index">DatablogCL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="allentries">Entradas
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about">Sobre Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+      <div class="container">
+        <h1 class="mt-2 text-center">Entradas del blog</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <p class="lead text-justify">
+              Aquí vas a encontrar todos los <em>posts</em> del blog, separados en temas de manejo de datos y <em>Machine Learning</em>.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="accordion mt-2" id="accordion-entries">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="entriesdb">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedb" aria-expanded="false" aria-controls="collapsedb">
+                Entradas sobre Manejo de Datos
+              </button>
+            </h2>
+            <div id="collapsedb" class="accordion-collapse collapse" aria-labelledby="entriesdb" data-bs-parent="#accordion-entries">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    <a href="#" class="card-link no-under-link">Post 1</a>
+                  </li>
+                  <li>
+                    <a href="#" class="card-link no-under-link">Post 2</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="entriesml">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseml" aria-expanded="false" aria-controls="collapseml">
+                Entradas sobre Machine Learning.
+              </button>
+            </h2>
+            <div id="collapseml" class="accordion-collapse collapse" aria-labelledby="entriesml" data-bs-parent="#accordion-entries">
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    <a href="#" class="card-link no-under-link">Post 3</a>
+                  </li>
+                  <li>
+                    <a href="#" class="card-link no-under-link">Post 4</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <div class="mt-5"></div>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">DatablogCL, Chile, 2021.</span>
+        </div>
+    </footer>
+    <script src="static/jquery/jquery.min.js"></script>
+    <script src="static/fontawesome/js/all.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/prism/prism.js"></script>
+    <script>
+      Prism.plugins.NormalizeWhitespace.setDefaults({
+        'remove-trailing': true,
+        'remove-indent': true,
+        'left-trim': true,
+        'right-trim': true,
+        /*'break-lines': 80,
+        'indent': 2,
+        'remove-initial-line-feed': false,
+        'tabs-to-spaces': 4,
+        'spaces-to-tabs': 4*/
+      });
+    </script>
+
+</body>
+
+</html>
