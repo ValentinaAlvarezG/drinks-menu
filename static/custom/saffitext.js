@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const phrases = [
-        "El trabajo dignifica. 🛠️",
+        "El trabajo dignifica. 🌭",
         "Es difícil ser hombre. 👨🏻",
         "Y si matamos unos zombies? 🧟"
     ];
